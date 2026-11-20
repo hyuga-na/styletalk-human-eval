@@ -97,5 +97,6 @@ export const CONFIG = {
     thanks: "ご協力ありがとうございました",
     thanksSub: "すべての回答を受け取りました。画面を閉じてかまいません。",
     beforeUnload: "未送信の回答があります。",
+    scriptError: "エラーが発生しました。Ctrl+Shift+R（Mac は Cmd+Shift+R）で再読み込みしてください。続く場合は出題者に連絡してください。",
   },
 };

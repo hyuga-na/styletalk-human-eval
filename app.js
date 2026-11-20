@@ -23,6 +23,21 @@ const S = {
   audioCache: new Map(),
 };
 
+// 想定外のエラーを黙って止めずに画面に出す（古いキャッシュの JS と新しい刺激の組合せなど）
+function showScriptError(err) {
+  console.error(err);
+  let el = document.getElementById("script-error");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "script-error";
+    el.className = "script-error";
+    document.body.prepend(el);
+  }
+  el.textContent = `${T.scriptError}（${err && err.message ? err.message : err}）`;
+}
+window.addEventListener("error", (e) => showScriptError(e.error || e.message));
+window.addEventListener("unhandledrejection", (e) => showScriptError(e.reason));
+
 // ---------------------------------------------------------------- DOM 小道具
 function h(tag, attrs = {}, ...children) {
   const el = document.createElement(tag);
