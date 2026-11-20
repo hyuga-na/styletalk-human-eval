@@ -363,8 +363,8 @@ function renderScreen(screen, pos, { practice, preloadNext, onDone }) {
     h("div", { class: "progress-bar" }, h("div", { class: "progress-fill", style: `width:${(100 * pos) / total}%` })),
     h("span", { class: "progress-text" }, practice ? `${T.practiceBadge} ${shownN} / ${total}` : `${shownN} / ${total}`));
 
-  // 文脈
-  const ctx = h("div", { class: "context" },
+  // 文脈（刺激に含まれるときだけ表示。現行の刺激には無い）
+  const ctx = !(input.context && input.context.length) ? null : h("div", { class: "context" },
     h("div", { class: "label" }, T.contextLabel),
     ...input.context.map((line) => h("div", { class: "turn", lang: "en" }, line)));
 

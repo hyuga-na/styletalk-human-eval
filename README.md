@@ -15,7 +15,7 @@ GitHub Pages で配信し、回答は Google Apps Script（GAS）経由で Googl
 | `config.js` | GAS の URL、表示設定（書き起こしの表示・休憩間隔など）、画面の文言一式 |
 | `js/order.js` | 評価者の seed から提示順と応答の並びを決定的に作る |
 | `js/api.js` | GAS との通信、未送信キュー（localStorage） |
-| `stimuli/stimuli.json` | 刺激（文脈・書き起こし・応答文・画面の組） |
+| `stimuli/stimuli.json` | 刺激（書き起こし・応答文・画面の組。対話文脈はモデルに入れていないので含めない） |
 | `audio/*.mp3` | 現在発話の音声（モノラル 64 kbps） |
 | `gas/Code.gs` | GAS のソースの控え（実体はスプレッドシートに紐づくスクリプト） |
 | `tests/` | `node tests/order.test.mjs`（提示順）、`node tests/gas.test.mjs`（GAS を模擬環境で） |

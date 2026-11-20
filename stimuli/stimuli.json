@@ -1,1125 +1,513 @@
 {
- "version": "2026-11-20a",
+ "version": "2026-11-20b",
  "inputs": [
   {
    "iid": "i000",
-   "context": [
-    "A: I just can't get that new song out of my head, it's so catchy!",
-    "B: Yeah, but it reminds me of the concert we missed last summer, such a bummer.",
-    "A: I'm hopeful we'll get another chance, maybe they'll tour again soon."
-   ],
-   "speaker": "B",
    "transcript": "It's really all about the music, isn't it?",
    "audio": "audio/i000.mp3"
   },
   {
    "iid": "i001",
-   "context": [
-    "A: I finally finished reading '1984'. What a powerful book!",
-    "B: Absolutely, it really makes you think about the world differently.",
-    "A: Yeah, and the way Orwell builds the setting is just genius."
-   ],
-   "speaker": "B",
    "transcript": "Have you thought about what book you're going to read next?",
    "audio": "audio/i001.mp3"
   },
   {
    "iid": "i002",
-   "context": [
-    "A: I just read about the new VR headsets coming out – they're supposed to be a game changer!",
-    "B: Oh, absolutely, I saw the promo video, and the graphics are mind-blowing!",
-    "A: They've really invested in the immersive experience, haven't they?"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, and the multiplayer feature looks like a lot of fun too.",
    "audio": "audio/i002.mp3"
   },
   {
    "iid": "i003",
-   "context": [
-    "A: Honestly, I've been trying out this new skincare routine, and my skin has never felt better!",
-    "B: That's fantastic! I've read good reviews about that brand. It’s supposed to be really gentle and effective, right?",
-    "A: Totally! It's all-natural and my face just glows now. You should really give it a try."
-   ],
-   "speaker": "B",
    "transcript": "I might add that to my wishlist then.",
    "audio": "audio/i003.mp3"
   },
   {
    "iid": "i004",
-   "context": [
-    "A: I just read about the latest VR technology and it's mind-blowing!",
-    "B: Oh totally! The immersive experience must be like nothing we've ever seen before.",
-    "A: Yeah, I wonder how it's going to affect the way we play video games or even attend meetings."
-   ],
-   "speaker": "B",
    "transcript": "I think it could revolutionize not just gaming, but education and training as well.",
    "audio": "audio/i004.mp3"
   },
   {
    "iid": "i005",
-   "context": [
-    "A: Did you see that incredible goal last night?",
-    "B: Yeah! I jumped off the couch when it happened!",
-    "A: It was such a skilled play, totally made the game for me."
-   ],
-   "speaker": "B",
    "transcript": "I can't wait to discuss the game with the others.",
    "audio": "audio/i005.mp3"
   },
   {
    "iid": "i006",
-   "context": [
-    "A: I just saw the weather forecast. Looks like we're in for some sunshine this weekend!",
-    "B: That’s awesome! I have been waiting for a sunny day to go for a hike!",
-    "A: Oh, hiking sounds like a blast, count me in!"
-   ],
-   "speaker": "B",
    "transcript": "I do hope the weather won’t suddenly change.",
    "audio": "audio/i006.mp3"
   },
   {
    "iid": "i007",
-   "context": [
-    "A: I just can’t believe we finished the project two weeks ahead of schedule!",
-    "B: Right? We totally knocked it out of the park this time, what a rush!",
-    "A: Hopefully, this means we’ll be considered for more exciting projects in the future."
-   ],
-   "speaker": "B",
    "transcript": "I guess we’ll see what the boss has to say.",
    "audio": "audio/i007.mp3"
   },
   {
    "iid": "i008",
-   "context": [
-    "A: Have you seen the new beauty salon that opened on Fifth Avenue?",
-    "B: Yeah, I passed by yesterday; the place looks absolutely stunning!",
-    "A: They offer a wide range of treatments, from facials to massages. It's got a very relaxing vibe, you know?"
-   ],
-   "speaker": "B",
    "transcript": "I might book an appointment there next week.",
    "audio": "audio/i008.mp3"
   },
   {
    "iid": "i009",
-   "context": [
-    "A: You wouldn't believe the show I went to last night, it was absolutely amazing!",
-    "B: Not really my kind of thing, I guess. I prefer staying in with a good book.",
-    "A: Come on, live a little! Maybe let's find an event that we'll both enjoy?"
-   ],
-   "speaker": "B",
    "transcript": "I'm willing to give it a try, what do you suggest?",
    "audio": "audio/i009.mp3"
   },
   {
    "iid": "i010",
-   "context": [
-    "A: I've finally hit my goal of running five miles every day!",
-    "B: That's really impressive, you must feel amazing reaching that milestone.",
-    "A: Yeah, and I've noticed such a positive change in my overall wellbeing!"
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking of joining a gym to get more exercise too.",
    "audio": "audio/i010.mp3"
   },
   {
    "iid": "i011",
-   "context": [
-    "A: Did you see the latest episode of that show last night? It was absolutely hilarious!",
-    "B: No, I missed it. Was it really that good?",
-    "A: Oh, absolutely! You’ve got to catch up. It's better than ever!"
-   ],
-   "speaker": "B",
    "transcript": "I guess I'll have to check it out then.",
    "audio": "audio/i011.mp3"
   },
   {
    "iid": "i012",
-   "context": [
-    "A: Can you believe how amazing that new burger place is?",
-    "B: Absolutely! Their loaded fries are out of this world too!",
-    "A: We should totally go there again next weekend."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, I could eat there every day!",
    "audio": "audio/i012.mp3"
   },
   {
    "iid": "i013",
-   "context": [
-    "A: I just heard the good news about your sister's wedding, that's fantastic!",
-    "B: Yeah, it's been a whirlwind of planning but we're all super excited about it!",
-    "A: Absolutely, weddings are such joyful occasions. Have you sorted out who's doing the toast?"
-   ],
-   "speaker": "B",
    "transcript": "I'm actually still working on the speech, hope it turns out well.",
    "audio": "audio/i013.mp3"
   },
   {
    "iid": "i014",
-   "context": [
-    "A: I can't believe we got front row tickets to the concert!",
-    "B: It's going to be an epic night—can't wait to see our favorite band live!",
-    "A: Yeah, we should definitely grab some merch before the show starts."
-   ],
-   "speaker": "B",
    "transcript": "So what time should we head out?",
    "audio": "audio/i014.mp3"
   },
   {
    "iid": "i015",
-   "context": [
-    "A: Just got my bonus, and I’m thinking about investing some of it!",
-    "B: That's fantastic! Have you thought about where you want to invest?",
-    "A: I'm leaning towards stocks, but I'm not entirely sure yet."
-   ],
-   "speaker": "B",
    "transcript": "Maybe consider diversifying your investments?",
    "audio": "audio/i015.mp3"
   },
   {
    "iid": "i016",
-   "context": [
-    "A: Honestly, I've been trying out this new skincare routine, and my skin has never felt better!",
-    "B: That's fantastic! I've read good reviews about that brand. It’s supposed to be really gentle and effective, right?",
-    "A: Totally! It's all-natural and my face just glows now. You should really give it a try."
-   ],
-   "speaker": "B",
    "transcript": "I might add that to my wishlist then.",
    "audio": "audio/i016.mp3"
   },
   {
    "iid": "i017",
-   "context": [
-    "A: I just heard the good news about your sister's wedding, that's fantastic!",
-    "B: Yeah, it's been a whirlwind of planning but we're all super excited about it!",
-    "A: Absolutely, weddings are such joyful occasions. Have you sorted out who's doing the toast?"
-   ],
-   "speaker": "B",
    "transcript": "I'm actually still working on the speech, hope it turns out well.",
    "audio": "audio/i017.mp3"
   },
   {
    "iid": "i018",
-   "context": [
-    "A: I just saw the weather forecast. Looks like we're in for some sunshine this weekend!",
-    "B: That’s awesome! I have been waiting for a sunny day to go for a hike!",
-    "A: Oh, hiking sounds like a blast, count me in!"
-   ],
-   "speaker": "B",
    "transcript": "I do hope the weather won’t suddenly change.",
    "audio": "audio/i018.mp3"
   },
   {
    "iid": "i019",
-   "context": [
-    "A: I nailed the science project, it turned out amazing!",
-    "B: That's awesome! I bet you'll get a top grade for sure.",
-    "A: And the teacher said it could be displayed at the school fair, how cool is that?"
-   ],
-   "speaker": "B",
    "transcript": "I hope our project will impress everyone too.",
    "audio": "audio/i019.mp3"
   },
   {
    "iid": "i020",
-   "context": [
-    "A: I just watched the latest superhero flick, it was absolutely thrilling!",
-    "B: Hmm, I've heard mixed reviews about it, so I haven't decided to see it yet.",
-    "A: Oh, you should totally go! The special effects alone are worth the price of admission!"
-   ],
-   "speaker": "B",
    "transcript": "Do you think it's suitable for kids?",
    "audio": "audio/i020.mp3"
   },
   {
    "iid": "i021",
-   "context": [
-    "A: I just watched the new superhero movie last night! It was absolutely thrilling!",
-    "B: No way, I saw it too! The special effects blew my mind, didn't they?",
-    "A: Yep, and the storyline was really deep, not just your typical action film."
-   ],
-   "speaker": "B",
    "transcript": "It had some plot holes, but overall it was a good watch.",
    "audio": "audio/i021.mp3"
   },
   {
    "iid": "i022",
-   "context": [
-    "A: Seriously, that last game was incredible, wasn’t it?",
-    "B: Absolutely! The energy in the stadium was just electric!",
-    "A: But it's a bummer that our star player is moving to another team next season."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it's going to be quite a change without them.",
    "audio": "audio/i022.mp3"
   },
   {
    "iid": "i023",
-   "context": [
-    "A: I finally finished reading '1984'. What a powerful book!",
-    "B: Absolutely, it really makes you think about the world differently.",
-    "A: Yeah, and the way Orwell builds the setting is just genius."
-   ],
-   "speaker": "B",
    "transcript": "Have you thought about what book you're going to read next?",
    "audio": "audio/i023.mp3"
   },
   {
    "iid": "i024",
-   "context": [
-    "A: Hey, did you catch the game last night? It was insanely good!",
-    "B: Absolutely! That last-minute goal was unbelievable, totally had me jumping off the couch!",
-    "A: I know, right? The whole match had me on the edge of my seat. Great to see our team win."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we should go see the next game live at the stadium.",
    "audio": "audio/i024.mp3"
   },
   {
    "iid": "i025",
-   "context": [
-    "A: Honestly, the new project rollout is going way better than I expected.",
-    "B: That's awesome to hear! Our team has been really killing it lately!",
-    "A: But we should still be cautious and keep an eye on the project metrics."
-   ],
-   "speaker": "B",
    "transcript": "It's important to celebrate the small wins too.",
    "audio": "audio/i025.mp3"
   },
   {
    "iid": "i026",
-   "context": [
-    "A: I've finally booked us the tickets to Hawaii! Can't wait!",
-    "B: That's amazing! We are going to have the best time surfing and relaxing!",
-    "A: I know, right? The beach, the sun... It's going to be epic!"
-   ],
-   "speaker": "B",
    "transcript": "I'll start packing my sunscreen and shades.",
    "audio": "audio/i026.mp3"
   },
   {
    "iid": "i027",
-   "context": [
-    "A: Can you believe we found such great deals at the mall today?",
-    "B: Absolutely! The discounts were amazing, I got all I wanted without breaking the bank.",
-    "A: But remember that cute dress that was just a tad too expensive? I really wish it was on sale too."
-   ],
-   "speaker": "B",
    "transcript": "It's a shame it wasn't part of the discount rack.",
    "audio": "audio/i027.mp3"
   },
   {
    "iid": "i028",
-   "context": [
-    "A: I just can't believe how quickly the kids are growing up!",
-    "B: Oh, I know, right? Seems like just yesterday they were starting kindergarten!",
-    "A: And now they're already talking about college, it's overwhelming sometimes."
-   ],
-   "speaker": "B",
    "transcript": "You've done a great job raising them, though.",
    "audio": "audio/i028.mp3"
   },
   {
    "iid": "i029",
-   "context": [
-    "A: I finally got tickets to the concert we've been dying to see!",
-    "B: No way! That's awesome, we're going to have the best time!",
-    "A: Yeah, I know! It took a lot of refreshing the page, but it was totally worth it."
-   ],
-   "speaker": "B",
    "transcript": "I hope the weather holds up for the concert day.",
    "audio": "audio/i029.mp3"
   },
   {
    "iid": "i030",
-   "context": [
-    "A: Man, the family reunion we had last week was an absolute blast, wasn't it?",
-    "B: Totally, I haven't laughed like that in ages! Everyone was in such a good mood.",
-    "A: Right? And how about Uncle Joe's karaoke session? That was just epic!"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it was nice to see everyone getting along so well.",
    "audio": "audio/i030.mp3"
   },
   {
    "iid": "i031",
-   "context": [
-    "A: I can’t wait to hit the beach and ride some waves!",
-    "B: It’s going to be amazing, I’ve heard the coral reefs there are stunning!",
-    "A: Yeah, and there are tons of water activities we can try out too."
-   ],
-   "speaker": "B",
    "transcript": "I should start packing soon, don’t want to leave it for the last minute.",
    "audio": "audio/i031.mp3"
   },
   {
    "iid": "i032",
-   "context": [
-    "A: I can't believe how many great deals we found at the mall today!",
-    "B: Yeah, but I still wish that blue sweater was in my size. It was such a good price.",
-    "A: Don't worry, I'll keep an eye out for it online. Maybe we’ll get lucky."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we should check out some other stores too.",
    "audio": "audio/i032.mp3"
   },
   {
    "iid": "i033",
-   "context": [
-    "A: I've just been to the most amazing skincare workshop! Got so many compliments on my glow!",
-    "B: Ah, that must be nice. I've had a tough day, and my skin is just breaking out badly.",
-    "A: Don't worry, I've got some great tips from the workshop. We'll find something that works for you too!"
-   ],
-   "speaker": "B",
    "transcript": "Maybe I should give that skincare routine a try then.",
    "audio": "audio/i033.mp3"
   },
   {
    "iid": "i034",
-   "context": [
-    "A: Hey, did you catch the game last night? It was insanely good!",
-    "B: Absolutely! That last-minute goal was unbelievable, totally had me jumping off the couch!",
-    "A: I know, right? The whole match had me on the edge of my seat. Great to see our team win."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we should go see the next game live at the stadium.",
    "audio": "audio/i034.mp3"
   },
   {
    "iid": "i035",
-   "context": [
-    "A: Honestly, that new yoga class has been amazing for my back!",
-    "B: Really? That's great to hear! I've been looking for something to help with my stress levels.",
-    "A: I totally recommend it, it could be just what you need for unwinding after work."
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking about trying a healthier diet too.",
    "audio": "audio/i035.mp3"
   },
   {
    "iid": "i036",
-   "context": [
-    "A: So I finally started investing in stocks and it's actually going pretty well!",
-    "B: That's amazing, dude! What stocks are you into right now?",
-    "A: Mostly tech stocks, they seem to have good potential for growth."
-   ],
-   "speaker": "B",
    "transcript": "You should really diversify your portfolio to mitigate risks.",
    "audio": "audio/i036.mp3"
   },
   {
    "iid": "i037",
-   "context": [
-    "A: I finally got tickets to the jazz festival next month!",
-    "B: That's awesome! The lineup is amazing this year, right?",
-    "A: Absolutely, and I'm most excited for Ella Fitzgerald's tribute act!"
-   ],
-   "speaker": "B",
    "transcript": "I hope we can get good seats at the venue.",
    "audio": "audio/i037.mp3"
   },
   {
    "iid": "i038",
-   "context": [
-    "A: I just read about the latest VR technology and it's mind-blowing!",
-    "B: Oh totally! The immersive experience must be like nothing we've ever seen before.",
-    "A: Yeah, I wonder how it's going to affect the way we play video games or even attend meetings."
-   ],
-   "speaker": "B",
    "transcript": "I think it could revolutionize not just gaming, but education and training as well.",
    "audio": "audio/i038.mp3"
   },
   {
    "iid": "i039",
-   "context": [
-    "A: I can't believe they scheduled the exam for next Monday!",
-    "B: Don't worry, we still have the weekend to study together.",
-    "A: But I have so many assignments due, it's just too much."
-   ],
-   "speaker": "B",
    "transcript": "I heard there's a study group meeting this afternoon.",
    "audio": "audio/i039.mp3"
   },
   {
    "iid": "i040",
-   "context": [
-    "A: So, I finally beat that level I was stuck on for ages!",
-    "B: Oh wow, that's great! You must have put a lot of effort into it.",
-    "A: Absolutely! And the final boss fight was epic!"
-   ],
-   "speaker": "B",
    "transcript": "I wonder how the next level is going to be.",
    "audio": "audio/i040.mp3"
   },
   {
    "iid": "i041",
-   "context": [
-    "A: I just finished reading 'The Alchemist', and it was so uplifting!",
-    "B: Oh wow, I've heard such great things about that book, I need to grab a copy soon!",
-    "A: Definitely, it's a story that sticks with you, makes you ponder about life's journey, you know?"
-   ],
-   "speaker": "B",
    "transcript": "I wonder if the ending will live up to the hype.",
    "audio": "audio/i041.mp3"
   },
   {
    "iid": "i042",
-   "context": [
-    "A: Man, did you see that incredible goal last night? It was out of this world!",
-    "B: Yeah, I caught the highlights this morning, the striker's performance was right on target!",
-    "A: I know, right? He’s been on a roll this season; his stats are through the roof!"
-   ],
-   "speaker": "B",
    "transcript": "I wonder how the team will perform in the upcoming matches.",
    "audio": "audio/i042.mp3"
   },
   {
    "iid": "i043",
-   "context": [
-    "A: I can't believe how incredible that movie was, it totally blew my mind!",
-    "B: Right?! The special effects were out of this world, and the storyline was so gripping!",
-    "A: Yeah, and the cast did an amazing job – every character felt so real."
-   ],
-   "speaker": "B",
    "transcript": "It's definitely worth watching again, don't you think?",
    "audio": "audio/i043.mp3"
   },
   {
    "iid": "i044",
-   "context": [
-    "A: Did you see that incredible goal last night?",
-    "B: Yeah! I jumped off the couch when it happened!",
-    "A: It was such a skilled play, totally made the game for me."
-   ],
-   "speaker": "B",
    "transcript": "I can't wait to discuss the game with the others.",
    "audio": "audio/i044.mp3"
   },
   {
    "iid": "i045",
-   "context": [
-    "A: Can you believe how gorgeous it is outside today?",
-    "B: Absolutely, it's the perfect day for a picnic, don't you think?",
-    "A: Yeah, I think a picnic in the park would be wonderful."
-   ],
-   "speaker": "B",
    "transcript": "It might get a little chilly later, though.",
    "audio": "audio/i045.mp3"
   },
   {
    "iid": "i046",
-   "context": [
-    "A: I just watched the latest superhero flick, it was absolutely thrilling!",
-    "B: Hmm, I've heard mixed reviews about it, so I haven't decided to see it yet.",
-    "A: Oh, you should totally go! The special effects alone are worth the price of admission!"
-   ],
-   "speaker": "B",
    "transcript": "Do you think it's suitable for kids?",
    "audio": "audio/i046.mp3"
   },
   {
    "iid": "i047",
-   "context": [
-    "A: So I finally started investing in stocks and it's actually going pretty well!",
-    "B: That's amazing, dude! What stocks are you into right now?",
-    "A: Mostly tech stocks, they seem to have good potential for growth."
-   ],
-   "speaker": "B",
    "transcript": "You should really diversify your portfolio to mitigate risks.",
    "audio": "audio/i047.mp3"
   },
   {
    "iid": "i048",
-   "context": [
-    "A: I can't believe how incredible that movie was, it totally blew my mind!",
-    "B: Right?! The special effects were out of this world, and the storyline was so gripping!",
-    "A: Yeah, and the cast did an amazing job – every character felt so real."
-   ],
-   "speaker": "B",
    "transcript": "It's definitely worth watching again, don't you think?",
    "audio": "audio/i048.mp3"
   },
   {
    "iid": "i049",
-   "context": [
-    "A: I can't believe we got front row tickets to the concert!",
-    "B: It's going to be an epic night—can't wait to see our favorite band live!",
-    "A: Yeah, we should definitely grab some merch before the show starts."
-   ],
-   "speaker": "B",
    "transcript": "So what time should we head out?",
    "audio": "audio/i049.mp3"
   },
   {
    "iid": "i050",
-   "context": [
-    "A: Hey, did you hear back about that promotion yet?",
-    "B: No, I'm still waiting. It's been a while, though.",
-    "A: Well, I'm keeping my fingers crossed for you!"
-   ],
-   "speaker": "B",
    "transcript": "I just hope the decision comes through soon.",
    "audio": "audio/i050.mp3"
   },
   {
    "iid": "i051",
-   "context": [
-    "A: I just finished reading 'The Alchemist', and it was so uplifting!",
-    "B: Oh wow, I've heard such great things about that book, I need to grab a copy soon!",
-    "A: Definitely, it's a story that sticks with you, makes you ponder about life's journey, you know?"
-   ],
-   "speaker": "B",
    "transcript": "I wonder if the ending will live up to the hype.",
    "audio": "audio/i051.mp3"
   },
   {
    "iid": "i052",
-   "context": [
-    "A: I just can’t believe we finished the project two weeks ahead of schedule!",
-    "B: Right? We totally knocked it out of the park this time, what a rush!",
-    "A: Hopefully, this means we’ll be considered for more exciting projects in the future."
-   ],
-   "speaker": "B",
    "transcript": "I guess we’ll see what the boss has to say.",
    "audio": "audio/i052.mp3"
   },
   {
    "iid": "i053",
-   "context": [
-    "A: You wouldn't believe the show I went to last night, it was absolutely amazing!",
-    "B: Not really my kind of thing, I guess. I prefer staying in with a good book.",
-    "A: Come on, live a little! Maybe let's find an event that we'll both enjoy?"
-   ],
-   "speaker": "B",
    "transcript": "I'm willing to give it a try, what do you suggest?",
    "audio": "audio/i053.mp3"
   },
   {
    "iid": "i054",
-   "context": [
-    "A: Can you believe how gorgeous it is outside today?",
-    "B: Absolutely, it's the perfect day for a picnic, don't you think?",
-    "A: Yeah, I think a picnic in the park would be wonderful."
-   ],
-   "speaker": "B",
    "transcript": "It might get a little chilly later, though.",
    "audio": "audio/i054.mp3"
   },
   {
    "iid": "i055",
-   "context": [
-    "A: I aced my calculus exam, dude! All that studying really paid off!",
-    "B: That's awesome! Are we still on for the study group later this week?",
-    "A: Oh, absolutely! Your notes on Shakespeare are going to save my grade, I swear."
-   ],
-   "speaker": "B",
    "transcript": "I hope the new teacher isn't too tough on grading our projects.",
    "audio": "audio/i055.mp3"
   },
   {
    "iid": "i056",
-   "context": [
-    "A: I aced my calculus exam, dude! All that studying really paid off!",
-    "B: That's awesome! Are we still on for the study group later this week?",
-    "A: Oh, absolutely! Your notes on Shakespeare are going to save my grade, I swear."
-   ],
-   "speaker": "B",
    "transcript": "I hope the new teacher isn't too tough on grading our projects.",
    "audio": "audio/i056.mp3"
   },
   {
    "iid": "i057",
-   "context": [
-    "A: I just can't believe how quickly the kids are growing up!",
-    "B: Oh, I know, right? Seems like just yesterday they were starting kindergarten!",
-    "A: And now they're already talking about college, it's overwhelming sometimes."
-   ],
-   "speaker": "B",
    "transcript": "You've done a great job raising them, though.",
    "audio": "audio/i057.mp3"
   },
   {
    "iid": "i058",
-   "context": [
-    "A: Have you seen the new beauty salon that opened on Fifth Avenue?",
-    "B: Yeah, I passed by yesterday; the place looks absolutely stunning!",
-    "A: They offer a wide range of treatments, from facials to massages. It's got a very relaxing vibe, you know?"
-   ],
-   "speaker": "B",
    "transcript": "I might book an appointment there next week.",
    "audio": "audio/i058.mp3"
   },
   {
    "iid": "i059",
-   "context": [
-    "A: I just can't get that new song out of my head, it's so catchy!",
-    "B: Yeah, but it reminds me of the concert we missed last summer, such a bummer.",
-    "A: I'm hopeful we'll get another chance, maybe they'll tour again soon."
-   ],
-   "speaker": "B",
    "transcript": "It's really all about the music, isn't it?",
    "audio": "audio/i059.mp3"
   },
   {
    "iid": "i060",
-   "context": [
-    "A: Just got my bonus, and I’m thinking about investing some of it!",
-    "B: That's fantastic! Have you thought about where you want to invest?",
-    "A: I'm leaning towards stocks, but I'm not entirely sure yet."
-   ],
-   "speaker": "B",
    "transcript": "Maybe consider diversifying your investments?",
    "audio": "audio/i060.mp3"
   },
   {
    "iid": "i061",
-   "context": [
-    "A: Honestly, the new project rollout is going way better than I expected.",
-    "B: That's awesome to hear! Our team has been really killing it lately!",
-    "A: But we should still be cautious and keep an eye on the project metrics."
-   ],
-   "speaker": "B",
    "transcript": "It's important to celebrate the small wins too.",
    "audio": "audio/i061.mp3"
   },
   {
    "iid": "i062",
-   "context": [
-    "A: I just got the latest smartwatch; it's got some really cool features!",
-    "B: Oh, wow! That sounds amazing! Does it track your fitness activities too?",
-    "A: Absolutely, it monitors my heart rate and counts my steps throughout the day."
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking of getting one myself.",
    "audio": "audio/i062.mp3"
   },
   {
    "iid": "i063",
-   "context": [
-    "A: I've finally hit my goal of running five miles every day!",
-    "B: That's really impressive, you must feel amazing reaching that milestone.",
-    "A: Yeah, and I've noticed such a positive change in my overall wellbeing!"
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking of joining a gym to get more exercise too.",
    "audio": "audio/i063.mp3"
   },
   {
    "iid": "i064",
-   "context": [
-    "A: I just love how the sun is coming out after all that rain, don't you?",
-    "B: Absolutely, the warmth feels so comforting and the garden looks amazing in the sunlight.",
-    "A: Hopefully, it stays this nice over the weekend for the picnic."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it would be a bummer if it rained again.",
    "audio": "audio/i064.mp3"
   },
   {
    "iid": "i065",
-   "context": [
-    "A: I finally got tickets to the concert we've been dying to see!",
-    "B: No way! That's awesome, we're going to have the best time!",
-    "A: Yeah, I know! It took a lot of refreshing the page, but it was totally worth it."
-   ],
-   "speaker": "B",
    "transcript": "I hope the weather holds up for the concert day.",
    "audio": "audio/i065.mp3"
   },
   {
    "iid": "i066",
-   "context": [
-    "A: I enjoyed watching the basketball game last night!",
-    "B: I guess it was okay, but it's not really my favorite sport.",
-    "A: Oh come on, the energy in the stadium was amazing! You've got to give it that."
-   ],
-   "speaker": "B",
    "transcript": "I can appreciate the skill involved, certainly.",
    "audio": "audio/i066.mp3"
   },
   {
    "iid": "i067",
-   "context": [
-    "A: I enjoyed watching the basketball game last night!",
-    "B: I guess it was okay, but it's not really my favorite sport.",
-    "A: Oh come on, the energy in the stadium was amazing! You've got to give it that."
-   ],
-   "speaker": "B",
    "transcript": "I can appreciate the skill involved, certainly.",
    "audio": "audio/i067.mp3"
   },
   {
    "iid": "i068",
-   "context": [
-    "A: I can't wait for our trip next week! It's going to be so much fun exploring the beaches and the local food scene!",
-    "B: Absolutely! Just thinking about that turquoise water and sandy shores gets me super pumped!",
-    "A: Yeah, and staying at that seaside cottage will be such a peaceful break from the city noise, don't you think?"
-   ],
-   "speaker": "B",
    "transcript": "I'm also looking into some interesting spots for us to visit while we are there.",
    "audio": "audio/i068.mp3"
   },
   {
    "iid": "i069",
-   "context": [
-    "A: Honestly, that new investment strategy sounds like it could really pay off big time!",
-    "B: You're absolutely right, I did quite a bit of research and the numbers are really promising.",
-    "A: It's always a gamble, but if your data's correct, it could be a game changer for us."
-   ],
-   "speaker": "B",
    "transcript": "We just need to be cautious and not risk more than we can afford to lose.",
    "audio": "audio/i069.mp3"
   },
   {
    "iid": "i070",
-   "context": [
-    "A: I finally got tickets to the jazz festival next month!",
-    "B: That's awesome! The lineup is amazing this year, right?",
-    "A: Absolutely, and I'm most excited for Ella Fitzgerald's tribute act!"
-   ],
-   "speaker": "B",
    "transcript": "I hope we can get good seats at the venue.",
    "audio": "audio/i070.mp3"
   },
   {
    "iid": "i071",
-   "context": [
-    "A: I can't believe they scheduled the exam for next Monday!",
-    "B: Don't worry, we still have the weekend to study together.",
-    "A: But I have so many assignments due, it's just too much."
-   ],
-   "speaker": "B",
    "transcript": "I heard there's a study group meeting this afternoon.",
    "audio": "audio/i071.mp3"
   },
   {
    "iid": "i072",
-   "context": [
-    "A: Man, did you see that incredible goal last night? It was out of this world!",
-    "B: Yeah, I caught the highlights this morning, the striker's performance was right on target!",
-    "A: I know, right? He’s been on a roll this season; his stats are through the roof!"
-   ],
-   "speaker": "B",
    "transcript": "I wonder how the team will perform in the upcoming matches.",
    "audio": "audio/i072.mp3"
   },
   {
    "iid": "i073",
-   "context": [
-    "A: Can you believe we found such great deals at the mall today?",
-    "B: Absolutely! The discounts were amazing, I got all I wanted without breaking the bank.",
-    "A: But remember that cute dress that was just a tad too expensive? I really wish it was on sale too."
-   ],
-   "speaker": "B",
    "transcript": "It's a shame it wasn't part of the discount rack.",
    "audio": "audio/i073.mp3"
   },
   {
    "iid": "i074",
-   "context": [
-    "A: Oh my goodness, the pasta here is absolutely amazing!",
-    "B: I'm so glad you like it, I knew this place wouldn't disappoint!",
-    "A: Yeah, and the portions are huge, I'm gonna have to take some home."
-   ],
-   "speaker": "B",
    "transcript": "I was thinking the same, maybe we can share a dessert?",
    "audio": "audio/i074.mp3"
   },
   {
    "iid": "i075",
-   "context": [
-    "A: I just got the latest smartwatch; it's got some really cool features!",
-    "B: Oh, wow! That sounds amazing! Does it track your fitness activities too?",
-    "A: Absolutely, it monitors my heart rate and counts my steps throughout the day."
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking of getting one myself.",
    "audio": "audio/i075.mp3"
   },
   {
    "iid": "i076",
-   "context": [
-    "A: I just love how the sun is coming out after all that rain, don't you?",
-    "B: Absolutely, the warmth feels so comforting and the garden looks amazing in the sunlight.",
-    "A: Hopefully, it stays this nice over the weekend for the picnic."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it would be a bummer if it rained again.",
    "audio": "audio/i076.mp3"
   },
   {
    "iid": "i077",
-   "context": [
-    "A: I just finished reading that mystery novel you lent me; it was absolutely riveting!",
-    "B: Really? I thought it was pretty predictable and couldn’t get into it much.",
-    "A: Well, maybe you were expecting too much; it's all about the suspense and red herrings!"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, maybe I'll give it another shot someday.",
    "audio": "audio/i077.mp3"
   },
   {
    "iid": "i078",
-   "context": [
-    "A: Did you see the latest episode of that show last night? It was absolutely hilarious!",
-    "B: No, I missed it. Was it really that good?",
-    "A: Oh, absolutely! You’ve got to catch up. It's better than ever!"
-   ],
-   "speaker": "B",
    "transcript": "I guess I'll have to check it out then.",
    "audio": "audio/i078.mp3"
   },
   {
    "iid": "i079",
-   "context": [
-    "A: Can you believe how amazing that new burger place is?",
-    "B: Absolutely! Their loaded fries are out of this world too!",
-    "A: We should totally go there again next weekend."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, I could eat there every day!",
    "audio": "audio/i079.mp3"
   },
   {
    "iid": "i080",
-   "context": [
-    "A: Oh my goodness, the pasta here is absolutely amazing!",
-    "B: I'm so glad you like it, I knew this place wouldn't disappoint!",
-    "A: Yeah, and the portions are huge, I'm gonna have to take some home."
-   ],
-   "speaker": "B",
    "transcript": "I was thinking the same, maybe we can share a dessert?",
    "audio": "audio/i080.mp3"
   },
   {
    "iid": "i081",
-   "context": [
-    "A: Seriously, that last game was incredible, wasn’t it?",
-    "B: Absolutely! The energy in the stadium was just electric!",
-    "A: But it's a bummer that our star player is moving to another team next season."
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it's going to be quite a change without them.",
    "audio": "audio/i081.mp3"
   },
   {
    "iid": "i082",
-   "context": [
-    "A: I've finally booked us the tickets to Hawaii! Can't wait!",
-    "B: That's amazing! We are going to have the best time surfing and relaxing!",
-    "A: I know, right? The beach, the sun... It's going to be epic!"
-   ],
-   "speaker": "B",
    "transcript": "I'll start packing my sunscreen and shades.",
    "audio": "audio/i082.mp3"
   },
   {
    "iid": "i083",
-   "context": [
-    "A: I nailed the science project, it turned out amazing!",
-    "B: That's awesome! I bet you'll get a top grade for sure.",
-    "A: And the teacher said it could be displayed at the school fair, how cool is that?"
-   ],
-   "speaker": "B",
    "transcript": "I hope our project will impress everyone too.",
    "audio": "audio/i083.mp3"
   },
   {
    "iid": "i084",
-   "context": [
-    "A: Honestly, that new investment strategy sounds like it could really pay off big time!",
-    "B: You're absolutely right, I did quite a bit of research and the numbers are really promising.",
-    "A: It's always a gamble, but if your data's correct, it could be a game changer for us."
-   ],
-   "speaker": "B",
    "transcript": "We just need to be cautious and not risk more than we can afford to lose.",
    "audio": "audio/i084.mp3"
   },
   {
    "iid": "i085",
-   "context": [
-    "A: I've finally hit my goal of running five miles every day, feel like I'm on top of the world!",
-    "B: That's fantastic! Seeing your progress really motivates me to stick with my own workout routine.",
-    "A: You should definitely keep at it! The benefits are totally worth the effort."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we can try a new health challenge next month?",
    "audio": "audio/i085.mp3"
   },
   {
    "iid": "i086",
-   "context": [
-    "A: I absolutely loved the new Thai place on the corner, their Pad Thai is to die for!",
-    "B: Oh, you went there? That's great! I've been meaning to try it, heard their curry is amazing too.",
-    "A: Yes, and you should see the desserts, the mango sticky rice was incredible!"
-   ],
-   "speaker": "B",
    "transcript": "I'll probably swing by this weekend then.",
    "audio": "audio/i086.mp3"
   },
   {
    "iid": "i087",
-   "context": [
-    "A: I've finally hit my goal of running five miles every day, feel like I'm on top of the world!",
-    "B: That's fantastic! Seeing your progress really motivates me to stick with my own workout routine.",
-    "A: You should definitely keep at it! The benefits are totally worth the effort."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we can try a new health challenge next month?",
    "audio": "audio/i087.mp3"
   },
   {
    "iid": "i088",
-   "context": [
-    "A: I absolutely loved the new Thai place on the corner, their Pad Thai is to die for!",
-    "B: Oh, you went there? That's great! I've been meaning to try it, heard their curry is amazing too.",
-    "A: Yes, and you should see the desserts, the mango sticky rice was incredible!"
-   ],
-   "speaker": "B",
    "transcript": "I'll probably swing by this weekend then.",
    "audio": "audio/i088.mp3"
   },
   {
    "iid": "i089",
-   "context": [
-    "A: I can't wait for our trip next week! It's going to be so much fun exploring the beaches and the local food scene!",
-    "B: Absolutely! Just thinking about that turquoise water and sandy shores gets me super pumped!",
-    "A: Yeah, and staying at that seaside cottage will be such a peaceful break from the city noise, don't you think?"
-   ],
-   "speaker": "B",
    "transcript": "I'm also looking into some interesting spots for us to visit while we are there.",
    "audio": "audio/i089.mp3"
   },
   {
    "iid": "i090",
-   "context": [
-    "A: I just finished reading that mystery novel you lent me; it was absolutely riveting!",
-    "B: Really? I thought it was pretty predictable and couldn’t get into it much.",
-    "A: Well, maybe you were expecting too much; it's all about the suspense and red herrings!"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, maybe I'll give it another shot someday.",
    "audio": "audio/i090.mp3"
   },
   {
    "iid": "i091",
-   "context": [
-    "A: I've just been to the most amazing skincare workshop! Got so many compliments on my glow!",
-    "B: Ah, that must be nice. I've had a tough day, and my skin is just breaking out badly.",
-    "A: Don't worry, I've got some great tips from the workshop. We'll find something that works for you too!"
-   ],
-   "speaker": "B",
    "transcript": "Maybe I should give that skincare routine a try then.",
    "audio": "audio/i091.mp3"
   },
   {
    "iid": "i092",
-   "context": [
-    "A: I can’t wait to hit the beach and ride some waves!",
-    "B: It’s going to be amazing, I’ve heard the coral reefs there are stunning!",
-    "A: Yeah, and there are tons of water activities we can try out too."
-   ],
-   "speaker": "B",
    "transcript": "I should start packing soon, don’t want to leave it for the last minute.",
    "audio": "audio/i092.mp3"
   },
   {
    "iid": "i093",
-   "context": [
-    "A: So, I finally beat that level I was stuck on for ages!",
-    "B: Oh wow, that's great! You must have put a lot of effort into it.",
-    "A: Absolutely! And the final boss fight was epic!"
-   ],
-   "speaker": "B",
    "transcript": "I wonder how the next level is going to be.",
    "audio": "audio/i093.mp3"
   },
   {
    "iid": "i094",
-   "context": [
-    "A: I can't believe how many great deals we found at the mall today!",
-    "B: Yeah, but I still wish that blue sweater was in my size. It was such a good price.",
-    "A: Don't worry, I'll keep an eye out for it online. Maybe we’ll get lucky."
-   ],
-   "speaker": "B",
    "transcript": "Maybe we should check out some other stores too.",
    "audio": "audio/i094.mp3"
   },
   {
    "iid": "i095",
-   "context": [
-    "A: Man, the family reunion we had last week was an absolute blast, wasn't it?",
-    "B: Totally, I haven't laughed like that in ages! Everyone was in such a good mood.",
-    "A: Right? And how about Uncle Joe's karaoke session? That was just epic!"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, it was nice to see everyone getting along so well.",
    "audio": "audio/i095.mp3"
   },
   {
    "iid": "i096",
-   "context": [
-    "A: I just read about the new VR headsets coming out – they're supposed to be a game changer!",
-    "B: Oh, absolutely, I saw the promo video, and the graphics are mind-blowing!",
-    "A: They've really invested in the immersive experience, haven't they?"
-   ],
-   "speaker": "B",
    "transcript": "Yeah, and the multiplayer feature looks like a lot of fun too.",
    "audio": "audio/i096.mp3"
   },
   {
    "iid": "i097",
-   "context": [
-    "A: I just watched the new superhero movie last night! It was absolutely thrilling!",
-    "B: No way, I saw it too! The special effects blew my mind, didn't they?",
-    "A: Yep, and the storyline was really deep, not just your typical action film."
-   ],
-   "speaker": "B",
    "transcript": "It had some plot holes, but overall it was a good watch.",
    "audio": "audio/i097.mp3"
   },
   {
    "iid": "i098",
-   "context": [
-    "A: Honestly, that new yoga class has been amazing for my back!",
-    "B: Really? That's great to hear! I've been looking for something to help with my stress levels.",
-    "A: I totally recommend it, it could be just what you need for unwinding after work."
-   ],
-   "speaker": "B",
    "transcript": "I've been thinking about trying a healthier diet too.",
    "audio": "audio/i098.mp3"
   },
   {
    "iid": "i099",
-   "context": [
-    "A: Hey, did you hear back about that promotion yet?",
-    "B: No, I'm still waiting. It's been a while, though.",
-    "A: Well, I'm keeping my fingers crossed for you!"
-   ],
-   "speaker": "B",
    "transcript": "I just hope the decision comes through soon.",
    "audio": "audio/i099.mp3"
   },
   {
    "iid": "pr1",
-   "context": [
-    "A: So I just checked my portfolio, and it's up by 15% since last month!",
-    "B: Whoa, that's incredible! Did you invest in something new or what?",
-    "A: Just some small adjustments here and there, nothing drastic."
-   ],
-   "speaker": "B",
    "transcript": "Stocks are really unpredictable, aren't they?",
    "audio": "audio/pr1.mp3"
   },
   {
    "iid": "pr2",
-   "context": [
-    "A: I just can't wait to hit the beaches in Hawaii, it's gonna be epic!",
-    "B: Oh for sure! Have you thought about surfing lessons there?",
-    "A: Definitely! I'm booking a session for the first day we're there!"
-   ],
-   "speaker": "B",
    "transcript": "I heard the local cuisine is amazing too.",
    "audio": "audio/pr2.mp3"
   }
