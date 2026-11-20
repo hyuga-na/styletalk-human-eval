@@ -2,7 +2,7 @@
 // gasUrl は GAS ウェブアプリをデプロイしたときの URL（…/exec）に置き換える。
 
 export const CONFIG = {
-  gasUrl: "https://script.google.com/a/macros/g.ext.naist.jp/s/AKfycbwmtceH9i6Ci3yzNpl7RseZ861Qxf9KRXzj-kZ64YudrZTgqFSsJhnvNumMIKUwvMuYYQ/exec",
+  gasUrl: "https://script.google.com/macros/s/AKfycbzrUVguf7PoUhVxArsYDgt2QGFFlsHod7hOOUvnw1TTqAdPVt6xF0rqbfkYC_r8nUZk/exec",
   stimuliUrl: "stimuli/stimuli.json",
 
   // 現在発話の書き起こしを表示するか（仕様書の既定は false。8.2 の決定によりモデル・LLM 評価と条件を揃えて表示する）
