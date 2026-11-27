@@ -72,6 +72,10 @@ button.secondary { font-size: 14px; padding: 4px 12px; }
 .transcript { margin-top: 6px; }
 .style-tags { margin-top: 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .style-tags .tag { background: var(--accent-weak); border: 1px solid #c4d3f6; border-radius: 6px; padding: 0 8px; font-size: 14px; }
+.comment { margin: 4px 0 14px; }
+.comment .optional { font-weight: normal; margin-left: 4px; }
+.comment-input { width: 100%; box-sizing: border-box; font: inherit; font-size: 14px; padding: 6px 8px;
+  border: 1px solid var(--line); border-radius: 6px; resize: vertical; }
 .tlabel { color: var(--muted); font-size: 13px; }
 .hint { color: var(--muted); font-size: 13px; margin-top: 4px; }
 

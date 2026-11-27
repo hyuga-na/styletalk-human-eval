@@ -9,6 +9,8 @@ export const CONFIG = {
   showTranscript: true,
   // 発話属性タグ（感情・話速・声の大きさの正解ラベル）を表示するか。LLM-as-a-judge にも入力するので条件を揃えて表示する
   showStyleTags: true,
+  // 自由記入欄の最大文字数（gas/Code.gs の COMMENT_MAX と揃える）
+  commentMaxLength: 1000,
   // この画面数ごとに休憩画面を挟む
   breakEvery: 20,
   // 同じ入力の画面どうしを最低この画面数だけ離す
@@ -49,6 +51,7 @@ export const CONFIG = {
       <h3>画面の使い方</h3>
       <ul>
         <li>音声を最後まで聞くと回答できるようになります。音声は何度でも聞き直せます。</li>
+        <li>各画面の下に「気づいたこと」の欄があります。判断に迷った点や音声の不具合など、留意すべきことがあれば書いてください。空欄でかまいません。</li>
         <li>すべてに答えると「次へ」が押せます。送信した回答は変更できません（戻れません）。</li>
         <li>いつ画面を閉じても、同じ URL を開けば続きから再開できます。</li>
       </ul>
@@ -92,6 +95,10 @@ export const CONFIG = {
     yes: "はい",
     no: "いいえ",
     responseLabel: (i) => `応答${"ABCD"[i]}`,
+
+    commentLabel: "気づいたこと",
+    commentOptional: "（任意）",
+    commentPlaceholder: "判断に迷った点、音声の不具合、応答の気になる点など、留意すべきことがあれば書いてください（空欄でかまいません）",
 
     next: "次へ",
     missingAudio: "音声を最後まで聞いてください",

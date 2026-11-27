@@ -439,6 +439,13 @@ function renderScreen(screen, pos, { practice, preloadNext, onDone }) {
   const fieldset = h("fieldset", { class: "responses", disabled: true },
     h("legend", {}, T.responsesLabel), head, ...rows.map((r) => r.tr));
 
+  // 自由記入欄（任意）
+  const comment = h("textarea", { class: "comment-input", rows: "2", maxlength: String(CONFIG.commentMaxLength),
+    placeholder: T.commentPlaceholder, "aria-label": T.commentLabel });
+  const commentBox = h("div", { class: "comment" },
+    h("label", { class: "label" }, T.commentLabel, h("span", { class: "optional" }, T.commentOptional)),
+    comment);
+
   const nextBtn = h("button", { class: "primary", disabled: true }, T.next);
   const missing = h("span", { class: "missing" });
 
@@ -475,6 +482,7 @@ function renderScreen(screen, pos, { practice, preloadNext, onDone }) {
       play_count: st.playCount,
       rt_ms: Math.round(performance.now() - t0),
       user_agent: navigator.userAgent,
+      comment: comment.value.trim().slice(0, CONFIG.commentMaxLength),
     };
     S.outbox.add(row);
     updatePending();
@@ -487,7 +495,7 @@ function renderScreen(screen, pos, { practice, preloadNext, onDone }) {
   show(h("div", { class: `screen${practice ? " practice" : ""}` },
     progress,
     practice ? h("div", { class: "badge" }, T.practiceBadge) : null,
-    ctx, cur, fieldset,
+    ctx, cur, fieldset, commentBox,
     h("div", { class: "actions" }, missing, nextBtn)));
 
   if (preloadNext) preload(S.inputs.get(preloadNext.iid).audio);

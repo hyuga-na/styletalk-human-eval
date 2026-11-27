@@ -15,8 +15,9 @@ var RATER_HEADER = ['rater', 'key', 'seed'];
 var COLUMNS = [
   'server_ts', 'client_ts', 'rater', 'stim_version', 'sid', 'iid', 'kind', 'pos',
   'rid_A', 'rid_B', 'rid_C', 'rid_D', 'valid_A', 'valid_B', 'valid_C', 'valid_D',
-  'best_rid', 'worst_rid', 'play_count', 'rt_ms', 'user_agent'
+  'best_rid', 'worst_rid', 'play_count', 'rt_ms', 'user_agent', 'comment'
 ];
+var COMMENT_MAX = 1000;   // 自由記入欄の最大文字数（app.js の textarea の maxlength と揃える）
 var COL_RATER = COLUMNS.indexOf('rater');
 var COL_SID = COLUMNS.indexOf('sid');
 var LETTERS = ['A', 'B', 'C', 'D'];
@@ -65,7 +66,7 @@ function doPost(e) {
     }
     var values = COLUMNS.map(function (c) {
       if (c === 'server_ts') return new Date().toISOString();
-      return sanitize_(row[c]);
+      return sanitize_(row[c], c === 'comment' ? COMMENT_MAX : 500);
     });
     var sh = sheet_(SHEET_RESPONSES);
     var r = sh.getLastRow() + 1;
@@ -93,6 +94,8 @@ function validRow_(row, rater) {
   if (typeof row.client_ts !== 'string' || row.client_ts.length > 40) return false;
   if (typeof row.stim_version !== 'string' || row.stim_version.length > 40) return false;
   if (typeof row.user_agent !== 'string') return false;
+  // 自由記入欄は任意（旧版のクライアントの未送信分には無い）
+  if (row.comment !== undefined && (typeof row.comment !== 'string' || row.comment.length > COMMENT_MAX)) return false;
   var rids = {};
   for (var i = 0; i < LETTERS.length; i++) {
     var rid = row['rid_' + LETTERS[i]];
@@ -110,10 +113,10 @@ function isInt_(x) {
   return typeof x === 'number' && isFinite(x) && Math.floor(x) === x;
 }
 
-// 表計算の式として解釈されないように（user_agent など）
-function sanitize_(x) {
+// 表計算の式として解釈されないように（user_agent・comment など）
+function sanitize_(x, max) {
   if (x === null || x === undefined) return '';
-  var s = String(x).slice(0, 500);
+  var s = String(x).slice(0, max || 500);
   if (/^[=+\-@]/.test(s)) s = "'" + s;
   return s;
 }
@@ -154,7 +157,7 @@ function json_(obj) {
 }
 
 // ------------------------------------------------------------------ 管理用（スクリプトエディタから手で実行）
-/** シートとヘッダを作る。既にあれば何もしない。 */
+/** シートとヘッダを作る。既にあれば、足りない列の見出しだけ補う。 */
 function setup() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   [[SHEET_RATERS, RATER_HEADER], [SHEET_RESPONSES, COLUMNS]].forEach(function (x) {
@@ -162,6 +165,18 @@ function setup() {
     if (sh.getLastRow() === 0) {
       sh.getRange(1, 1, 1, x[1].length).setValues([x[1]]).setFontWeight('bold');
       sh.setFrozenRows(1);
+    } else {
+      // 既存のシートに後から足した列（comment など）の見出しを補う。既存の列は変えない
+      var head = sh.getRange(1, 1, 1, Math.max(sh.getLastColumn(), 1)).getValues()[0].map(String);
+      for (var i = 0; i < x[1].length; i++) {
+        if (head[i] !== x[1][i]) {
+          if (head[i] === undefined || head[i] === '') {
+            sh.getRange(1, i + 1).setValue(x[1][i]).setFontWeight('bold');
+          } else {
+            throw new Error(x[0] + ' の ' + (i + 1) + ' 列目の見出しが ' + head[i] + '（期待: ' + x[1][i] + '）');
+          }
+        }
+      }
     }
   });
   ss.getSheetByName(SHEET_RATERS).getRange('A:B').setNumberFormat('@');
