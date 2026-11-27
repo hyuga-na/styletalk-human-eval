@@ -12,7 +12,7 @@ GitHub Pages で配信し、回答は Google Apps Script（GAS）経由で Googl
 | パス | 中身 |
 |---|---|
 | `index.html` `app.js` `style.css` | 評価画面（素の HTML + ES モジュール。ビルド工程なし） |
-| `config.js` | GAS の URL、表示設定（書き起こしの表示・休憩間隔など）、画面の文言一式 |
+| `config.js` | GAS の URL、表示設定（書き起こし・発話属性タグの表示・休憩間隔など）、画面の文言一式 |
 | `js/order.js` | 評価者の seed から提示順と応答の並びを決定的に作る |
 | `js/api.js` | GAS との通信、未送信キュー（localStorage） |
 | `stimuli/stimuli.json` | 刺激（書き起こし・応答文・画面の組。対話文脈はモデルに入れていないので含めない） |

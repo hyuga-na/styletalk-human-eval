@@ -1,515 +1,1025 @@
 {
- "version": "2026-11-20b",
+ "version": "2026-11-27a",
  "inputs": [
   {
    "iid": "i000",
    "transcript": "It's really all about the music, isn't it?",
-   "audio": "audio/i000.mp3"
+   "audio": "audio/i000.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i001",
    "transcript": "Have you thought about what book you're going to read next?",
-   "audio": "audio/i001.mp3"
+   "audio": "audio/i001.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i002",
    "transcript": "Yeah, and the multiplayer feature looks like a lot of fun too.",
-   "audio": "audio/i002.mp3"
+   "audio": "audio/i002.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i003",
    "transcript": "I might add that to my wishlist then.",
-   "audio": "audio/i003.mp3"
+   "audio": "audio/i003.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i004",
    "transcript": "I think it could revolutionize not just gaming, but education and training as well.",
-   "audio": "audio/i004.mp3"
+   "audio": "audio/i004.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i005",
    "transcript": "I can't wait to discuss the game with the others.",
-   "audio": "audio/i005.mp3"
+   "audio": "audio/i005.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i006",
    "transcript": "I do hope the weather won’t suddenly change.",
-   "audio": "audio/i006.mp3"
+   "audio": "audio/i006.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i007",
    "transcript": "I guess we’ll see what the boss has to say.",
-   "audio": "audio/i007.mp3"
+   "audio": "audio/i007.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i008",
    "transcript": "I might book an appointment there next week.",
-   "audio": "audio/i008.mp3"
+   "audio": "audio/i008.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i009",
    "transcript": "I'm willing to give it a try, what do you suggest?",
-   "audio": "audio/i009.mp3"
+   "audio": "audio/i009.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i010",
    "transcript": "I've been thinking of joining a gym to get more exercise too.",
-   "audio": "audio/i010.mp3"
+   "audio": "audio/i010.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i011",
    "transcript": "I guess I'll have to check it out then.",
-   "audio": "audio/i011.mp3"
+   "audio": "audio/i011.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i012",
    "transcript": "Yeah, I could eat there every day!",
-   "audio": "audio/i012.mp3"
+   "audio": "audio/i012.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i013",
    "transcript": "I'm actually still working on the speech, hope it turns out well.",
-   "audio": "audio/i013.mp3"
+   "audio": "audio/i013.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i014",
    "transcript": "So what time should we head out?",
-   "audio": "audio/i014.mp3"
+   "audio": "audio/i014.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i015",
    "transcript": "Maybe consider diversifying your investments?",
-   "audio": "audio/i015.mp3"
+   "audio": "audio/i015.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i016",
    "transcript": "I might add that to my wishlist then.",
-   "audio": "audio/i016.mp3"
+   "audio": "audio/i016.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i017",
    "transcript": "I'm actually still working on the speech, hope it turns out well.",
-   "audio": "audio/i017.mp3"
+   "audio": "audio/i017.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i018",
    "transcript": "I do hope the weather won’t suddenly change.",
-   "audio": "audio/i018.mp3"
+   "audio": "audio/i018.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i019",
    "transcript": "I hope our project will impress everyone too.",
-   "audio": "audio/i019.mp3"
+   "audio": "audio/i019.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i020",
    "transcript": "Do you think it's suitable for kids?",
-   "audio": "audio/i020.mp3"
+   "audio": "audio/i020.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i021",
    "transcript": "It had some plot holes, but overall it was a good watch.",
-   "audio": "audio/i021.mp3"
+   "audio": "audio/i021.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i022",
    "transcript": "Yeah, it's going to be quite a change without them.",
-   "audio": "audio/i022.mp3"
+   "audio": "audio/i022.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i023",
    "transcript": "Have you thought about what book you're going to read next?",
-   "audio": "audio/i023.mp3"
+   "audio": "audio/i023.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i024",
    "transcript": "Maybe we should go see the next game live at the stadium.",
-   "audio": "audio/i024.mp3"
+   "audio": "audio/i024.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i025",
    "transcript": "It's important to celebrate the small wins too.",
-   "audio": "audio/i025.mp3"
+   "audio": "audio/i025.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i026",
    "transcript": "I'll start packing my sunscreen and shades.",
-   "audio": "audio/i026.mp3"
+   "audio": "audio/i026.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i027",
    "transcript": "It's a shame it wasn't part of the discount rack.",
-   "audio": "audio/i027.mp3"
+   "audio": "audio/i027.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i028",
    "transcript": "You've done a great job raising them, though.",
-   "audio": "audio/i028.mp3"
+   "audio": "audio/i028.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i029",
    "transcript": "I hope the weather holds up for the concert day.",
-   "audio": "audio/i029.mp3"
+   "audio": "audio/i029.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i030",
    "transcript": "Yeah, it was nice to see everyone getting along so well.",
-   "audio": "audio/i030.mp3"
+   "audio": "audio/i030.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i031",
    "transcript": "I should start packing soon, don’t want to leave it for the last minute.",
-   "audio": "audio/i031.mp3"
+   "audio": "audio/i031.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i032",
    "transcript": "Maybe we should check out some other stores too.",
-   "audio": "audio/i032.mp3"
+   "audio": "audio/i032.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i033",
    "transcript": "Maybe I should give that skincare routine a try then.",
-   "audio": "audio/i033.mp3"
+   "audio": "audio/i033.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i034",
    "transcript": "Maybe we should go see the next game live at the stadium.",
-   "audio": "audio/i034.mp3"
+   "audio": "audio/i034.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i035",
    "transcript": "I've been thinking about trying a healthier diet too.",
-   "audio": "audio/i035.mp3"
+   "audio": "audio/i035.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i036",
    "transcript": "You should really diversify your portfolio to mitigate risks.",
-   "audio": "audio/i036.mp3"
+   "audio": "audio/i036.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i037",
    "transcript": "I hope we can get good seats at the venue.",
-   "audio": "audio/i037.mp3"
+   "audio": "audio/i037.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i038",
    "transcript": "I think it could revolutionize not just gaming, but education and training as well.",
-   "audio": "audio/i038.mp3"
+   "audio": "audio/i038.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i039",
    "transcript": "I heard there's a study group meeting this afternoon.",
-   "audio": "audio/i039.mp3"
+   "audio": "audio/i039.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i040",
    "transcript": "I wonder how the next level is going to be.",
-   "audio": "audio/i040.mp3"
+   "audio": "audio/i040.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i041",
    "transcript": "I wonder if the ending will live up to the hype.",
-   "audio": "audio/i041.mp3"
+   "audio": "audio/i041.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i042",
    "transcript": "I wonder how the team will perform in the upcoming matches.",
-   "audio": "audio/i042.mp3"
+   "audio": "audio/i042.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i043",
    "transcript": "It's definitely worth watching again, don't you think?",
-   "audio": "audio/i043.mp3"
+   "audio": "audio/i043.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i044",
    "transcript": "I can't wait to discuss the game with the others.",
-   "audio": "audio/i044.mp3"
+   "audio": "audio/i044.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i045",
    "transcript": "It might get a little chilly later, though.",
-   "audio": "audio/i045.mp3"
+   "audio": "audio/i045.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i046",
    "transcript": "Do you think it's suitable for kids?",
-   "audio": "audio/i046.mp3"
+   "audio": "audio/i046.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i047",
    "transcript": "You should really diversify your portfolio to mitigate risks.",
-   "audio": "audio/i047.mp3"
+   "audio": "audio/i047.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i048",
    "transcript": "It's definitely worth watching again, don't you think?",
-   "audio": "audio/i048.mp3"
+   "audio": "audio/i048.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i049",
    "transcript": "So what time should we head out?",
-   "audio": "audio/i049.mp3"
+   "audio": "audio/i049.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i050",
    "transcript": "I just hope the decision comes through soon.",
-   "audio": "audio/i050.mp3"
+   "audio": "audio/i050.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i051",
    "transcript": "I wonder if the ending will live up to the hype.",
-   "audio": "audio/i051.mp3"
+   "audio": "audio/i051.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i052",
    "transcript": "I guess we’ll see what the boss has to say.",
-   "audio": "audio/i052.mp3"
+   "audio": "audio/i052.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i053",
    "transcript": "I'm willing to give it a try, what do you suggest?",
-   "audio": "audio/i053.mp3"
+   "audio": "audio/i053.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i054",
    "transcript": "It might get a little chilly later, though.",
-   "audio": "audio/i054.mp3"
+   "audio": "audio/i054.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i055",
    "transcript": "I hope the new teacher isn't too tough on grading our projects.",
-   "audio": "audio/i055.mp3"
+   "audio": "audio/i055.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i056",
    "transcript": "I hope the new teacher isn't too tough on grading our projects.",
-   "audio": "audio/i056.mp3"
+   "audio": "audio/i056.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i057",
    "transcript": "You've done a great job raising them, though.",
-   "audio": "audio/i057.mp3"
+   "audio": "audio/i057.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i058",
    "transcript": "I might book an appointment there next week.",
-   "audio": "audio/i058.mp3"
+   "audio": "audio/i058.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i059",
    "transcript": "It's really all about the music, isn't it?",
-   "audio": "audio/i059.mp3"
+   "audio": "audio/i059.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i060",
    "transcript": "Maybe consider diversifying your investments?",
-   "audio": "audio/i060.mp3"
+   "audio": "audio/i060.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i061",
    "transcript": "It's important to celebrate the small wins too.",
-   "audio": "audio/i061.mp3"
+   "audio": "audio/i061.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i062",
    "transcript": "I've been thinking of getting one myself.",
-   "audio": "audio/i062.mp3"
+   "audio": "audio/i062.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i063",
    "transcript": "I've been thinking of joining a gym to get more exercise too.",
-   "audio": "audio/i063.mp3"
+   "audio": "audio/i063.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i064",
    "transcript": "Yeah, it would be a bummer if it rained again.",
-   "audio": "audio/i064.mp3"
+   "audio": "audio/i064.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i065",
    "transcript": "I hope the weather holds up for the concert day.",
-   "audio": "audio/i065.mp3"
+   "audio": "audio/i065.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i066",
    "transcript": "I can appreciate the skill involved, certainly.",
-   "audio": "audio/i066.mp3"
+   "audio": "audio/i066.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i067",
    "transcript": "I can appreciate the skill involved, certainly.",
-   "audio": "audio/i067.mp3"
+   "audio": "audio/i067.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i068",
    "transcript": "I'm also looking into some interesting spots for us to visit while we are there.",
-   "audio": "audio/i068.mp3"
+   "audio": "audio/i068.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i069",
    "transcript": "We just need to be cautious and not risk more than we can afford to lose.",
-   "audio": "audio/i069.mp3"
+   "audio": "audio/i069.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i070",
    "transcript": "I hope we can get good seats at the venue.",
-   "audio": "audio/i070.mp3"
+   "audio": "audio/i070.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "normal",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i071",
    "transcript": "I heard there's a study group meeting this afternoon.",
-   "audio": "audio/i071.mp3"
+   "audio": "audio/i071.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i072",
    "transcript": "I wonder how the team will perform in the upcoming matches.",
-   "audio": "audio/i072.mp3"
+   "audio": "audio/i072.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i073",
    "transcript": "It's a shame it wasn't part of the discount rack.",
-   "audio": "audio/i073.mp3"
+   "audio": "audio/i073.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i074",
    "transcript": "I was thinking the same, maybe we can share a dessert?",
-   "audio": "audio/i074.mp3"
+   "audio": "audio/i074.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i075",
    "transcript": "I've been thinking of getting one myself.",
-   "audio": "audio/i075.mp3"
+   "audio": "audio/i075.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i076",
    "transcript": "Yeah, it would be a bummer if it rained again.",
-   "audio": "audio/i076.mp3"
+   "audio": "audio/i076.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i077",
    "transcript": "Yeah, maybe I'll give it another shot someday.",
-   "audio": "audio/i077.mp3"
+   "audio": "audio/i077.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i078",
    "transcript": "I guess I'll have to check it out then.",
-   "audio": "audio/i078.mp3"
+   "audio": "audio/i078.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i079",
    "transcript": "Yeah, I could eat there every day!",
-   "audio": "audio/i079.mp3"
+   "audio": "audio/i079.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i080",
    "transcript": "I was thinking the same, maybe we can share a dessert?",
-   "audio": "audio/i080.mp3"
+   "audio": "audio/i080.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i081",
    "transcript": "Yeah, it's going to be quite a change without them.",
-   "audio": "audio/i081.mp3"
+   "audio": "audio/i081.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i082",
    "transcript": "I'll start packing my sunscreen and shades.",
-   "audio": "audio/i082.mp3"
+   "audio": "audio/i082.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i083",
    "transcript": "I hope our project will impress everyone too.",
-   "audio": "audio/i083.mp3"
+   "audio": "audio/i083.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i084",
    "transcript": "We just need to be cautious and not risk more than we can afford to lose.",
-   "audio": "audio/i084.mp3"
+   "audio": "audio/i084.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i085",
    "transcript": "Maybe we can try a new health challenge next month?",
-   "audio": "audio/i085.mp3"
+   "audio": "audio/i085.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i086",
    "transcript": "I'll probably swing by this weekend then.",
-   "audio": "audio/i086.mp3"
+   "audio": "audio/i086.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i087",
    "transcript": "Maybe we can try a new health challenge next month?",
-   "audio": "audio/i087.mp3"
+   "audio": "audio/i087.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i088",
    "transcript": "I'll probably swing by this weekend then.",
-   "audio": "audio/i088.mp3"
+   "audio": "audio/i088.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i089",
    "transcript": "I'm also looking into some interesting spots for us to visit while we are there.",
-   "audio": "audio/i089.mp3"
+   "audio": "audio/i089.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i090",
    "transcript": "Yeah, maybe I'll give it another shot someday.",
-   "audio": "audio/i090.mp3"
+   "audio": "audio/i090.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i091",
    "transcript": "Maybe I should give that skincare routine a try then.",
-   "audio": "audio/i091.mp3"
+   "audio": "audio/i091.mp3",
+   "style": {
+    "emotion": "cheerful",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i092",
    "transcript": "I should start packing soon, don’t want to leave it for the last minute.",
-   "audio": "audio/i092.mp3"
+   "audio": "audio/i092.mp3",
+   "style": {
+    "emotion": "sad",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i093",
    "transcript": "I wonder how the next level is going to be.",
-   "audio": "audio/i093.mp3"
+   "audio": "audio/i093.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   },
   {
    "iid": "i094",
    "transcript": "Maybe we should check out some other stores too.",
-   "audio": "audio/i094.mp3"
+   "audio": "audio/i094.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i095",
    "transcript": "Yeah, it was nice to see everyone getting along so well.",
-   "audio": "audio/i095.mp3"
+   "audio": "audio/i095.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i096",
    "transcript": "Yeah, and the multiplayer feature looks like a lot of fun too.",
-   "audio": "audio/i096.mp3"
+   "audio": "audio/i096.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "fast",
+    "volume": "loud"
+   }
   },
   {
    "iid": "i097",
    "transcript": "It had some plot holes, but overall it was a good watch.",
-   "audio": "audio/i097.mp3"
+   "audio": "audio/i097.mp3",
+   "style": {
+    "emotion": "unfriendly",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i098",
    "transcript": "I've been thinking about trying a healthier diet too.",
-   "audio": "audio/i098.mp3"
+   "audio": "audio/i098.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "i099",
    "transcript": "I just hope the decision comes through soon.",
-   "audio": "audio/i099.mp3"
+   "audio": "audio/i099.mp3",
+   "style": {
+    "emotion": "friendly",
+    "speed": "normal",
+    "volume": "normal"
+   }
   },
   {
    "iid": "pr1",
    "transcript": "Stocks are really unpredictable, aren't they?",
-   "audio": "audio/pr1.mp3"
+   "audio": "audio/pr1.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "normal"
+   }
   },
   {
    "iid": "pr2",
    "transcript": "I heard the local cuisine is amazing too.",
-   "audio": "audio/pr2.mp3"
+   "audio": "audio/pr2.mp3",
+   "style": {
+    "emotion": "neutral",
+    "speed": "slow",
+    "volume": "quiet"
+   }
   }
  ],
  "responses": {

@@ -394,6 +394,12 @@ function renderScreen(screen, pos, { practice, preloadNext, onDone }) {
     CONFIG.showTranscript
       ? h("div", { class: "transcript", lang: "en" }, h("span", { class: "tlabel" }, `${T.transcriptLabel}: `), input.transcript)
       : null,
+    CONFIG.showStyleTags && input.style
+      ? h("div", { class: "style-tags" }, h("span", { class: "tlabel" }, `${T.styleLabel}: `),
+          ...T.styleKeys.map(([k, ja]) => h("span", { class: "tag" },
+            `${ja}: `, h("span", { lang: "en" }, input.style[k]),
+            T.styleValues[input.style[k]] ? `（${T.styleValues[input.style[k]]}）` : "")))
+      : null,
     h("div", { class: "hint" }, T.listenFirst));
 
   // 応答の表
